@@ -13,7 +13,8 @@ function App() {
     GrandmaStatus.loading
   );
 
-  const url = "https://dining.columbia.edu/chef-mikes";
+  const url =
+    "https://cors-reroute-72fe9db28c00.herokuapp.com/https://dining.columbia.edu/chef-mikes";
   // const url = "http://0.0.0.0:8080/https://dining.columbia.edu/chef-mikes";
   const testUrl =
     "http://0.0.0.0:8080/https://dining.columbia.edu/content/ferris-booth-commons-0";
