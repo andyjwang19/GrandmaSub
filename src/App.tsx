@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Axios from "axios";
 
@@ -17,7 +16,7 @@ function App() {
     "https://cors-reroute-72fe9db28c00.herokuapp.com/https://dining.columbia.edu/chef-mikes";
   // const url = "http://0.0.0.0:8080/https://dining.columbia.edu/chef-mikes";
   const testUrl =
-    "http://0.0.0.0:8080/https://dining.columbia.edu/content/ferris-booth-commons-0";
+    "https://cors-reroute-72fe9db28c00.herokuapp.com/https://dining.columbia.edu/content/ferris-booth-commons-0";
   const loadSite = async () => {
     try {
       const resp = await Axios.get(url);
@@ -58,7 +57,7 @@ function App() {
         : "bg-white";
     return (
       <div
-        className={`w-full h-screen flex flex-col items-center justify-center font-['Arial-Black'] ${bgColor} text-white`}
+        className={`w-full h-screen flex flex-col items-center justify-center font-['Arial-Black'] ${bgColor} text-white text-center`}
       >
         <div className="font-['Baskerville'] text-xl">
           do they have the Grandma Special at Chef Mikes?
