@@ -57,9 +57,9 @@ function App() {
         : "bg-white";
     return (
       <div
-        className={`w-full h-screen flex flex-col items-center justify-center font-['Arial-Black'] ${bgColor} text-white text-center`}
+        className={`w-full h-screen flex flex-col items-center justify-center font-sans ${bgColor} text-white text-center`}
       >
-        <div className="font-['Baskerville'] text-xl">
+        <div className="font-serif text-xl">
           do they have the Grandma Special at Chef Mikes?
         </div>
         {hasGrandma === GrandmaStatus.loading ? (
