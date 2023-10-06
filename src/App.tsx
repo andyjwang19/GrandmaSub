@@ -20,24 +20,28 @@ function App() {
   const loadSite = async () => {
     try {
       const resp = await Axios.get(url);
-      // .then(function (response: any) {
-      //   // handle success
-      //   console.log(response);
-      // })
-      // .catch(function (error: any) {
-      //   // handle error
-      //   console.log(error);
-      // })
-      // .finally(function () {
-      //   // always executed
-      // });
       const grepRes = (resp.data as string).match(
         "Chef Mike.'s Grandma Special"
       );
+      const date = new Date();
+      // const today = `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()+1}`
+      // const isoString = date.toISOString();
+      // const today = isoString
+      //   .slice(0, isoString.indexOf("T"))
+      //   .concat("T15:00:00");
+
+      // const todayIdx = (resp.data as string).match(today)?.index;
+      // console.log(`todayIdx`, todayIdx);
+      // console.log(`grepres`, grepRes);
+      //date_from\":\"2023-10-05T15:00:00
       if (grepRes !== null) {
-        setHasGrandma(GrandmaStatus.true);
-      } else {
         setHasGrandma(GrandmaStatus.false);
+        // if ((grepRes as any).index > (todayIdx as number)) {
+        // } else {
+        //   setHasGrandma(GrandmaStatus.false);
+        // }
+      } else {
+        setHasGrandma(GrandmaStatus.true);
       }
     } catch (error) {
       console.error(
