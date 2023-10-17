@@ -20,9 +20,8 @@ function App() {
   const loadSite = async () => {
     try {
       const cutDate = (isoString: string, from: boolean) => {
-        return isoString
-          .slice(0, isoString.indexOf("T"))
-          .concat(from ? "T14:30:00" : "T02:00:00");
+        return isoString.slice(0, isoString.indexOf("T") + 1);
+        // .concat(from ? "T14:30:00" : "T02:00:00");
       };
 
       const resp = await Axios.get(url);
