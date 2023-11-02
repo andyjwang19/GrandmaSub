@@ -1,0 +1,284 @@
+[
+  {
+    "nid": "7431",
+    "type": "cu_dining_menu",
+    "title": "Chef Mike&#039;s Sub Shop Week 2 Friday",
+    "locations": ["6907"],
+    "date_range": ["34801"],
+    "date_range_fields": [
+      {
+        "date_from": "2023-10-13T15:00:00",
+        "date_to": "2023-10-14T02:00:00",
+        "menu_type": ["61"],
+        "stations": [
+          {
+            "meals_paragraph": [
+              {
+                "meal_text": "Turkey, Roast beef, Tuna, Ham, Buffalo Chicken, Grilled Vegetables, Chipotle Tofu, Italian Tofu",
+                "title": "Protein"
+              },
+              {
+                "meal_text": "Swiss, American, Pepper Jack, Provolone, Cheddar",
+                "title": "Cheese"
+              },
+              {
+                "meal_text": "Lettuce, Tomato, Red Onion, Banana Peppers, Roasted Red Peppers, Guacamole, Jalapeu00f1os, Hummus",
+                "title": "Toppings"
+              },
+              {
+                "meal_text": "Red Wine Vinegar, Balsamic Vinegar, Olive Oil, Mayo, Mustard",
+                "title": "Dressings"
+              }
+            ],
+            "station": ["110"]
+          },
+          {
+            "meals_paragraph": [
+              {
+                "meal_text": "Spinach, Swiss Cheese, and Ranch",
+                "title": "Grilled Chicken"
+              },
+              {
+                "meal_text": "Chickpea and Cool Cucumber",
+                "prefs": ["Vegan"],
+                "title": "Sweet and Spicy Curry "
+              }
+            ],
+            "station": ["109"]
+          },
+          {
+            "meals_paragraph": [
+              {
+                "allergens": ["Dairy", "Soy", "Wheat"],
+                "title": "Hot Roast Beef with Mozzarella"
+              },
+              {
+                "allergens": ["Coconut", "Soy", "Sunflower Oil", "Wheat"],
+                "prefs": ["Vegan"],
+                "title": "Seitan French Dip Hero"
+              }
+            ],
+            "station": ["108"]
+          }
+        ],
+        "title": "Chef Mike's Sub Shop_Week 2_Friday"
+      }
+    ]
+  },
+  {
+    "nid": "7430",
+    "type": "cu_dining_menu",
+    "title": "Chef Mike&#039;s Sub Shop Week 2 Thursday",
+    "locations": ["6907"],
+    "date_range": ["34789"],
+    "date_range_fields": [
+      {
+        "date_from": "2023-10-12T14:30:00",
+        "date_to": "2023-10-13T02:00:00",
+        "menu_type": ["61"],
+        "stations": [
+          {
+            "meals_paragraph": [
+              {
+                "allergens": ["Dairy", "Eggs", "Pork", "Soy", "Wheat"],
+                "meal_text": "Turkey, Bacon, Swiss Cheese, Roasted Red Pepper, Red Onion, Baby Spinach, rnand Honey Mustardrn",
+                "title": "Turkey Swiss Roasted Peppers"
+              },
+              {
+                "allergens": ["Soy", "Wheat"],
+                "meal_text": "Cauliflower, Guacamole, Arugula,rnRed Onion, Roasted Red Pepper,rnFresh Basil, Italian Dressing,rnAnd Mangorn",
+                "prefs": ["Vegan"],
+                "title": "Cauliflower With  Mango & Guacamole"
+              }
+            ],
+            "station": ["109"]
+          },
+          {
+            "meals_paragraph": [
+              {
+                "allergens": ["Dairy", "Soy", "Wheat"],
+                "title": "Hot Honey Chicken with  Mozzarella "
+              },
+              {
+                "allergens": ["Coconut", "Soy", "Wheat"],
+                "meal_text": "Vegan Meatball, Vegan Provolone, and Franks Hot Saucern",
+                "prefs": ["Halal", "Vegan"],
+                "title": "Vegan Buffalo Meatballs"
+              }
+            ],
+            "station": ["108"]
+          }
+        ],
+        "title": "Chef Mike's Sub Shop_Week 2_Thursday"
+      }
+    ]
+  },
+  {
+    "nid": "7428",
+    "type": "cu_dining_menu",
+    "title": "Chef Mike&#039;s Sub Shop Week 2 Tuesday ",
+    "locations": ["6907"],
+    "date_range": ["34765"],
+    "date_range_fields": [
+      {
+        "date_from": "2023-10-10T14:30:00",
+        "date_to": "2023-10-11T02:00:00",
+        "menu_type": ["61"],
+        "stations": [
+          {
+            "meals_paragraph": [
+              {
+                "allergens": ["Dairy"],
+                "meal_text": "Fresh Mozzarella, Grilled Vegetables, Roasted Red Pepper, Arugula, Pesto, Olive Oil & Balsamic Vinegar rn",
+                "prefs": ["Vegetarian"],
+                "title": "Fresh Mozzarella"
+              },
+              {
+                "allergens": ["Soy"],
+                "meal_text": "Portobello, Red Shredded Cabbage, Cilantro, Shredded Carrot, Vegan Mayo, Miso Paste, Arugula, Red Onion, Red Wine Vinegar, Balsamic & Olive Oilrn",
+                "prefs": ["Vegan"],
+                "title": "Miso Marinated Portobello Mushrooms"
+              }
+            ],
+            "station": ["109"]
+          },
+          {
+            "meals_paragraph": [
+              {
+                "allergens": ["Dairy", "Soy", "Wheat"],
+                "meal_text": "Beef Strips, Red Pepper, Green Pepper, Yellow Pepper, Onion and American Cheesern",
+                "title": "Philly Cheesesteak"
+              },
+              {
+                "allergens": ["Coconut", "Soy", "Wheat"],
+                "meal_text": "Seitan, Red Pepper, Green Pepper, Yellow Pepper, Vegan American Cheese, Vegan Mayo and Garlicrn",
+                "prefs": ["Vegan"],
+                "title": "Vegan Cheesesteak"
+              }
+            ],
+            "station": ["108"]
+          }
+        ],
+        "title": "Chef Mike's Sub Shop_Week 2_Tuesday"
+      }
+    ]
+  },
+  {
+    "nid": "7429",
+    "type": "cu_dining_menu",
+    "title": "Chef Mike&#039;s Sub Shop Week 2 Wednesday",
+    "locations": ["6907"],
+    "date_range": ["34777"],
+    "date_range_fields": [
+      {
+        "date_from": "2023-10-11T14:30:00",
+        "date_to": "2023-10-12T02:00:00",
+        "menu_type": ["61"],
+        "stations": [
+          {
+            "meals_paragraph": [
+              {
+                "allergens": ["Dairy", "Soy", "Wheat"],
+                "meal_text": "Chicken, Swiss Cheese,  Roasted Red Pepper, Baby Spinach & Honey Mustardrn",
+                "title": "Chicken with Swiss Cheese"
+              },
+              {
+                "allergens": ["Soy", "Wheat"],
+                "meal_text": "Tempeh, Eggplant, Yellow Squash, Zucchini, Diced Tomato, Red Onion, and Shredded Carrotrn",
+                "prefs": ["Halal", "Vegan"],
+                "title": "Tempeh With Grilled Veggies"
+              }
+            ],
+            "station": ["109"]
+          },
+          {
+            "meals_paragraph": [
+              {
+                "allergens": ["Dairy", "Eggs", "Soy", "Wheat"],
+                "meal_text": "Pastrami, Swiss Cheese, and Thousand Island Dressing rn",
+                "title": "Hot Pastrami"
+              },
+              {
+                "allergens": ["Sesame", "Soy", "Wheat"],
+                "meal_text": "Spicy Potato, Tofu Nuggets, Red Onions, Kale, Shredded Carrots, Black Olives, Tahini, and Jerk Seasoningrn",
+                "prefs": ["Vegan"],
+                "title": "Spicy Potato with Tofu and Kale"
+              }
+            ],
+            "station": ["108"]
+          }
+        ],
+        "title": "Chef Mike's Sub Shop_Week 2_Wednesday"
+      }
+    ]
+  },
+  {
+    "nid": "7441",
+    "type": "cu_dining_menu",
+    "title": "Chef Mike&#039;s Sub Shop Week 3 Monday",
+    "locations": ["6907"],
+    "date_range": ["34837"],
+    "date_range_fields": [
+      {
+        "date_from": "2023-10-16T15:00:00",
+        "date_to": "2023-10-17T02:00:00",
+        "menu_type": ["61"],
+        "stations": [
+          {
+            "meals_paragraph": [
+              {
+                "meal_text": "Turkey, Roast beef, Tuna, Ham, Buffalo Chicken, Grilled Vegetables, Chipotle Tofu, Italian Tofu",
+                "title": "Protein"
+              },
+              {
+                "meal_text": "Swiss, American, Pepper Jack, Provolone, Cheddar",
+                "title": "Cheese"
+              },
+              {
+                "meal_text": "Lettuce, Tomato, Red Onion, Banana Peppers, Roasted Red Peppers, Guacamole, Jalapeu00f1os, Hummus",
+                "title": "Toppings"
+              },
+              {
+                "meal_text": "Red Wine Vinegar, Balsamic Vinegar, Olive Oil, Mayo, Mustard",
+                "title": "Dressings"
+              }
+            ],
+            "station": ["110"]
+          },
+          {
+            "meals_paragraph": [
+              {
+                "allergens": ["Dairy", "Eggs", "Fish", "Soy", "Wheat"],
+                "meal_text": "Tuna Salad, Mayo, Pepper Jack Cheese, Hot Banana Pepper, Shredded Lettuce, Sliced Tomato & Sriracharn",
+                "title": "Spicy Tuna Salad"
+              },
+              {
+                "allergens": ["Wheat"],
+                "prefs": ["Vegan"],
+                "title": "Chickpea Salad Sub"
+              }
+            ],
+            "station": ["109"]
+          },
+          {
+            "meals_paragraph": [
+              {
+                "allergens": ["Dairy", "Eggs", "Soy", "Wheat"],
+                "meal_text": "Meatball, Marinara Sauce, Parmesan Cheese & Mozzarella Cheesern",
+                "title": "Meatball Hero"
+              },
+              {
+                "allergens": ["Coconut", "Soy", "Wheat"],
+                "meal_text": "Vegan Meatball, Vegan Mozzarella & Marinara Sauce rn",
+                "prefs": ["Halal", "Vegan"],
+                "title": "Vegan Meatball Hero"
+              }
+            ],
+            "station": ["108"]
+          }
+        ],
+        "title": "Chef Mike's Sub Shop_Week 3_Monday"
+      }
+    ]
+  }
+]

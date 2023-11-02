@@ -55,10 +55,12 @@ function App() {
       const todayIdx = grepIdx(today);
       console.log(`RESULT`, sandwichIdx, date_from_idx, todayIdx);
       if (todayIdx > date_from_idx && todayIdx < sandwichIdx) {
-        setHasGrandma(GrandmaStatus.true);
+        // setHasGrandma(GrandmaStatus.true);
+        setHasGrandma(GrandmaStatus.false);
       } else {
         console.log(`Sandwich in this week, not today.`);
-        setHasGrandma(GrandmaStatus.false);
+        // setHasGrandma(GrandmaStatus.false);
+        setHasGrandma(GrandmaStatus.true);
       }
     } catch (error) {
       console.error(
