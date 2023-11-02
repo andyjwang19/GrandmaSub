@@ -46,21 +46,22 @@ function App() {
         sandwichIdx
       );
 
+      const date_to_idx = (resp.data as string).lastIndexOf(
+        "date_to",
+        sandwichIdx
+      );
+
       const todayDate = new Date();
-
       const todayIsoString = todayDate.toISOString();
-
       const today = cutDate(todayIsoString, true);
+      const todayIdx = (resp.data as string).lastIndexOf(today, date_to_idx); //grepIdx(today); //between date_from and date_to
 
-      const todayIdx = grepIdx(today);
       console.log(`RESULT`, sandwichIdx, date_from_idx, todayIdx);
       if (todayIdx > date_from_idx && todayIdx < sandwichIdx) {
-        // setHasGrandma(GrandmaStatus.true);
-        setHasGrandma(GrandmaStatus.false);
+        setHasGrandma(GrandmaStatus.true);
       } else {
         console.log(`Sandwich in this week, not today.`);
-        // setHasGrandma(GrandmaStatus.false);
-        setHasGrandma(GrandmaStatus.true);
+        setHasGrandma(GrandmaStatus.false);
       }
     } catch (error) {
       console.error(
